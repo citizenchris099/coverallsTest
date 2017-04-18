@@ -20,6 +20,8 @@ coverage
 # nyc test coverage
 .nyc_output
 
+.idea
+
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -48,8 +50,5 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
-.idea/jsLibraryMappings.xml
-.idea/misc.xml
-.idea/watcherTasks.xml
-.idea/jsLibraryMappings.xml
-.idea/workspace.xml
+
+.idea/vcs.xml
