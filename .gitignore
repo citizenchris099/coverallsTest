@@ -49,3 +49,13 @@ jspm_packages
 .yarn-integrity
 
 
+.babelrc
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/watcherTasks.xml
+src/
+test/
+
+.idea/jsLibraryMappings.xml
+
+.idea/workspace.xml
