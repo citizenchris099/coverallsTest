@@ -23,5 +23,10 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc --require babel-core/register mocha",
     "coverage": "cross-env NODE_ENV=test nyc report --reporter=text-lcov | coveralls --require babel-core/register mocha"
+  },
+  "nyc":{
+    "include": [
+      "src/**/*.js"
+    ]
   }
 }
