@@ -5,6 +5,7 @@
     "babel": "^6.23.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.2.10",
+    "babel-plugin-istanbul": "^4.1.1",
     "babel-plugin-react-css-modules": "^1.2.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
@@ -24,7 +25,7 @@
     "test": "cross-env NODE_ENV=test nyc --require babel-core/register mocha",
     "coverage": "cross-env NODE_ENV=test nyc report --reporter=text-lcov | coveralls --require babel-core/register mocha"
   },
-  "nyc":{
+  "nyc": {
     "include": [
       "src/**/*.js"
     ]
