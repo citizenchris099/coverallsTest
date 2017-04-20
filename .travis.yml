@@ -7,4 +7,4 @@ install:
 script:
   - npm test
 after_script:
-  - npm run coverage
+  - npm run-script coverage
