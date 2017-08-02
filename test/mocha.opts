@@ -1,2 +1,3 @@
 src/**/*.test.js
 --require test/index.js
+--require ignore-styles

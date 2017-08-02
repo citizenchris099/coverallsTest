@@ -3,6 +3,7 @@
  */
 
 import React, {PropTypes} from 'react';
+import './email.css';
 
 export default class Email extends React.Component {
     constructor(props) {
